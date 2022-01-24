@@ -95,9 +95,18 @@ The subscript of the adaptability array represents the chromosome number, and ad
 
 In the example of load balancing scheduling, we take the total execution time of N tasks as the criterion for fitness evaluation. When all tasks are assigned, if the total duration is longer, the fitness will be worse; and the shorter the total duration, the higher the fitness.
 
-### select probability matrix
+### Select probability matrix
 It can be seen from the above that in each evolution process, it is necessary to calculate the probability of each chromosome being selected in the next evolution according to the fitness matrix. This matrix is ​​as follows:
 > selectionProbability={0.1, 0.4, 0.2, 0.3}
 
 The subscript of the matrix represents the number of the chromosome, and the value in the matrix represents the corresponding selection probability for that chromosome. Its calculation formula is as follows:
 > selectionProbability[i] = adaptability[i] / sum of fitness
+
+
+### How The Genetic Algorithm Was Used In This Project
+
+<ol>
+  <li>User inputs phrase in the input field.</li><br>
+  <li>A random population of phrases is made, each having the same length as the users phrase.<br>Each character in the phrases generated matches the type of character in the user input, be it a <b>Number</b>, <b>Letter</b>, or <b>Symbol</b>. ( These are for optomization purposes. )</li><br>
+  <li>All the processes stated above are then used, until a phrase generated matches the one inputted.<li><br>
+</ol>
