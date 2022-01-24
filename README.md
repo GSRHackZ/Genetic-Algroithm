@@ -1,4 +1,4 @@
-## Genetic Algorithm
+## Genetic Algorithm - Working Prototype ( Not Finished )
 Before we start, let's first understand a few concepts in genetic algorithm.
 
 ### Concept 1: Genes and Chromosomes
