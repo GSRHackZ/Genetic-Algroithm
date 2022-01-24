@@ -105,8 +105,8 @@ The subscript of the matrix represents the number of the chromosome, and the val
 
 ### How The Genetic Algorithm Was Used In This Project
 
-<ol>
+<ul>
   <li>User inputs phrase in the input field.</li><br>
   <li>A random population of phrases is made, each having the same length as the users phrase.<br>Each character in the phrases generated matches the type of character in the user input, be it a <b>Number</b>, <b>Letter</b>, or <b>Symbol</b>. ( These are for optomization purposes. )</li><br>
-  <li>All the processes stated above are then used, until a phrase generated matches the one inputted.<li><br>
-</ol>
+  <li>All the processes stated above are then used, until a phrase generated matches the one inputted.</li><br>
+</ul>
