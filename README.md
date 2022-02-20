@@ -1,5 +1,5 @@
 ## Genetic Algorithm - Working Prototype ( Not Finished )
-Before we start, let's first understand a few concepts in genetic algorithm.
+Before we start, let's first understand a few concepts in the genetic algorithm.
 
 ### Concept 1: Genes and Chromosomes
 In the genetic algorithm, we first need to map the problem to be solved into a mathematical problem, which is called "mathematical modeling", then a feasible solution to this problem is called a "chromosome". A feasible solution generally consists of multiple elements, then each element is called a "gene" on the chromosome.
